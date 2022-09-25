@@ -1,0 +1,33 @@
+/* КОЛІР ТЕКСТУ В ШАПЦІ БІЛИЙ ТОМУ НЕ ІИДНО ПОКИ ТЕКСТУ, АЛЕ ВІН ТАМ Є)) */
+:root{
+    --background-color:#E5E5E5;
+    --main-text-color:#FFFFFF;
+    --accent-color:#28A745;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+}
+
+.link {
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+
+.accent {
+    color: var(--accent-color);
+}
+
+.logo {
+    font-size: 35px;
+    line-height: 1.2;
+}
+.nav {
+    font-size: 18px;
+    line-height: 1.6;
+}
