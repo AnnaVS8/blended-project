@@ -1,34 +1,68 @@
 /* КОЛІР ТЕКСТУ В ШАПЦІ БІЛИЙ ТОМУ НЕ ІИДНО ПОКИ ТЕКСТУ, АЛЕ ВІН ТАМ Є)) */
-:root{
-    --background-color:#E5E5E5;
-    --main-text-color:#FFFFFF;
-    --accent-color:#28A745;
+:root {
+  --background-color: #e5e5e5;
+  --main-text-color: #ffffff;
+  --accent-color: #28a745;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
 }
 /* Header styles */
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 .link {
-    color: var(--main-text-color);
-    text-decoration: none;
+  color: var(--main-text-color);
+  text-decoration: none;
 }
 
 .accent {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .logo {
-    font-size: 35px;
-    line-height: 1.2;
+  font-size: 35px;
+  line-height: 1.2;
 }
 .nav {
-    font-size: 18px;
-    line-height: 1.6;
+  font-size: 18px;
+  line-height: 1.6;
 }
 /* main styles */
+
+/* Hero Section  */
+
+.hero {
+  background-image: url(/images/backgroundHero.jpg);
+}
+
+.hero-title {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 66px;
+  text-align: center;
+  color: #e9e9e9;
+}
+
+.hero-descr {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 37px;
+  text-align: center;
+  color: #e9e9e9;
+}
+
+.hero-button {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  background: #28A745;
+}
