@@ -66,3 +66,24 @@ ul {
   color: #ffffff;
   background: #28A745;
 }
+/* services section */
+.services-section{background: #F4F4F4;
+border-radius: 0px;}
+.services-title{}
+.services-group-title{
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 33px;
+color: #333333;
+}
+.service-group-paragraf{
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+color: #333333;
+}
+
