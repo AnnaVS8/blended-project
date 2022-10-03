@@ -161,7 +161,7 @@ ul {
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
-  line-height: 33px;
+  line-height: 1.65;
   text-align: ;
   color: var(--primary-text-color);
 }
@@ -171,7 +171,7 @@ ul {
   font-style: normal;
   font-weight: 300;
   font-size: 38px;
-  line-height: 48px;
+  line-height: 1.26;
   text-align: ;
   color: var(--primary-text-color);
 }
