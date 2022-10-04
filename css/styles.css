@@ -189,3 +189,14 @@ ul {
   font-size: 18px;
   line-height: 1.5;
 }
+.footer {
+  background-color:var(--primary-text-color);
+}
+.last-words {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.57;
+  text-align: center;
+  color: var(--main-text-color);
+}
