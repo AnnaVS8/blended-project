@@ -7,6 +7,7 @@
   --primary-text-color: #333333;
   --section-color: #f4f4f4;
   --bgc-secondary: #0284d0;
+  --register-text: #808080 ;
 }
 
 body {
@@ -177,4 +178,14 @@ ul {
 }
 .position-team {
   text-transform: capitalize;
+}
+/* callback */
+.callback{
+  background-color: var(--section-color)
+}
+.callback-text{
+  color: var(--register-text);
+  background-color: var(--main-text-color);
+  font-size: 18px;
+  line-height: 1.5;
 }
