@@ -120,12 +120,19 @@ ul {
 }
 
 .icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 67px;
   height: 67px;
   border-radius: 50%;
   background-color: var(--accent-color);
   margin: 0 auto;
   margin-bottom: 15px;
+}
+
+.services-icon {
+  fill: var(--main-text-color);
 }
 .services-list {
   display: flex;
@@ -238,4 +245,17 @@ ul {
   line-height: 1.57;
   text-align: center;
   color: var(--main-text-color);
+}
+
+.social-list {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+.social-link{
+  fill: var(--main-text-color);
+}
+.social-link:hover, .social-link:focus {
+fill: var(--accent-color);
 }
