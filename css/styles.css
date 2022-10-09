@@ -220,7 +220,7 @@ ul {
 } */
 .tagline-team,
 .title-team,
-.paragraf-team,
+.paragraph-team,
 .name-team,
 .position-team {
   text-align: center;
@@ -228,6 +228,7 @@ ul {
 }
 
 .name-team {
+  margin-bottom: 14px;
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
@@ -235,6 +236,38 @@ ul {
 }
 .position-team {
   text-transform: capitalize;
+}
+
+.team-container { 
+  padding-bottom: 57px;
+}
+.tagline {
+}
+.tagline-team {
+  padding-top: 49px;
+  margin-bottom: 16px;
+
+}
+.title { 
+  
+}
+.title-team {
+  margin-bottom: 34px;
+}
+.paragraph-team {
+  margin-bottom: 45px;
+}
+.team-group { 
+  display: flex;
+  justify-content: center;
+  gap: 19px;
+}
+.crew { 
+  padding: 13px;
+}
+.name-team {
+}
+.position-team {
 }
 /* callback */
 .callback {
