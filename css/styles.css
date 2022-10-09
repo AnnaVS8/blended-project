@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 1.56;
   color: var(--primary-text-color);
@@ -35,6 +35,13 @@ p {
   padding-right: 30px;
   margin: 0 auto;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* Header styles */
 
 ul {
@@ -145,14 +152,17 @@ ul {
 .services-icon {
   fill: var(--main-text-color);
 }
+
 .services-list {
   display: flex;
   gap: 70px;
 }
+
 .services-item {
   width: 362px;
   text-align: center;
 }
+
 .services-group-title {
   font-size: 20px;
   font-weight: 400;
@@ -191,7 +201,35 @@ ul {
   top: 1369px;
 }
 
-/* Business cases section все наслідується*/
+/* Business cases section*/
+.business-section {
+  padding: 50px 0;
+}
+
+.business-tagline {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.business-title {
+  text-align: center;
+  margin-bottom: 34px;
+}
+
+.business-descr {
+  text-align: center;
+  margin-bottom: 39px;
+}
+
+.business-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.business-item {
+  flex-basis: calc((100% - 24px) / 4);
+}
 
 /* Blog post section */
 .blog-section {
@@ -213,6 +251,7 @@ ul {
   left: 710px;
   top: 1369px;
 }
+
 /* Section about team */
 /* .team-section{
  text-align: center;
@@ -234,54 +273,62 @@ ul {
   font-size: 25px;
   line-height: 1.28;
 }
+
 .position-team {
   text-transform: capitalize;
 }
 
-.team-container { 
+.team-container {
   padding-bottom: 57px;
 }
-.tagline {
-}
+
+.tagline {}
+
 .tagline-team {
   padding-top: 49px;
   margin-bottom: 16px;
+}
 
-}
-.title { 
-  
-}
+.title {}
+
 .title-team {
   margin-bottom: 34px;
 }
+
 .paragraph-team {
   margin-bottom: 45px;
 }
-.team-group { 
+
+.team-group {
   display: flex;
   justify-content: center;
   gap: 19px;
 }
-.crew { 
+
+.crew {
   padding: 13px;
 }
-.name-team {
-}
-.position-team {
-}
+
+.name-team {}
+
+.position-team {}
+
 /* callback */
 .callback {
   background-color: var(--section-color);
 }
+
 .callback-text {
   color: var(--register-text);
   background-color: var(--main-text-color);
   font-size: 18px;
   line-height: 1.5;
 }
+
 .footer {
   background-color: var(--primary-text-color);
 }
+
 .last-words {
   font-style: normal;
   font-weight: 400;
@@ -300,6 +347,7 @@ ul {
 .social-link {
   fill: var(--main-text-color);
 }
+
 .social-link:hover,
 .social-link:focus {
   fill: var(--accent-color);
