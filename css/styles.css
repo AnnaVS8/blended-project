@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   line-height: 1.56;
   color: var(--primary-text-color);
@@ -171,6 +171,27 @@ ul {
 }
 
 /*  Solutions section*/
+.solutions-container {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+.solutions-box {
+  display: block;
+  padding-top: 84px;
+  padding-left: 30px;
+  padding-bottom: 84px;
+}
+.solutions-tagline {
+  margin-bottom: 5px;
+}
+.solutions-title {
+  margin-bottom: 26px;
+}
+.solutions-text {
+  width: 606px;
+  margin-bottom: 17px;
+}
 .solutions {
   background-color: var(--accent-color);
 }
@@ -193,6 +214,7 @@ ul {
 }
 
 .btn-solutions {
+  padding: 11px 27px 12px 42px;
   border: 1px solid var(--main-text-color);
   border-radius: 5px;
   width: 167px;
@@ -252,11 +274,6 @@ ul {
   top: 1369px;
 }
 
-/* Section about team */
-/* .team-section{
- text-align: center;
-  color: var(--primary-text-color); 
-} */
 .tagline-team,
 .title-team,
 .paragraph-team,
@@ -279,17 +296,19 @@ ul {
 }
 
 .team-container {
-  padding-bottom: 57px;
+  margin-bottom: 57px;
 }
 
-.tagline {}
+.tagline {
+}
 
 .tagline-team {
   padding-top: 49px;
   margin-bottom: 16px;
 }
 
-.title {}
+.title {
+}
 
 .title-team {
   margin-bottom: 34px;
@@ -309,9 +328,11 @@ ul {
   padding: 13px;
 }
 
-.name-team {}
+.name-team {
+}
 
-.position-team {}
+.position-team {
+}
 
 /* callback */
 .callback {
