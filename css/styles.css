@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 1.56;
   color: var(--primary-text-color);
@@ -83,7 +83,6 @@ ul {
 }
 
 .hero-title {
-  font-style: normal;
   font-weight: 300;
   font-size: 55px;
   line-height: 1.2;
@@ -104,7 +103,7 @@ ul {
   background: var(--accent-color);
   color: var(--main-text-color);
   font-family: inherit;
-  font-size: 18px;
+
   line-height: 1.56;
   cursor: pointer;
   border: none;
@@ -285,7 +284,7 @@ ul {
 
 .name-team {
   margin-bottom: 14px;
-  font-style: normal;
+
   font-weight: 400;
   font-size: 25px;
   line-height: 1.28;
@@ -295,23 +294,31 @@ ul {
   text-transform: capitalize;
 }
 
+.team-section {
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
 .team-container {
-  margin-bottom: 57px;
+  width: 1360px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0 auto;
 }
 
 .tagline {
 }
 
 .tagline-team {
-  padding-top: 49px;
   margin-bottom: 16px;
-}
-
-.title {
+  font-size: 20px;
+  line-height: 1.65;
 }
 
 .title-team {
   margin-bottom: 34px;
+  font-size: 38px;
+  line-height: 1.26;
 }
 
 .paragraph-team {
@@ -335,15 +342,48 @@ ul {
 }
 
 /* callback */
-.callback {
+.callback-section {
   background-color: var(--section-color);
 }
 
+.callback-container {
+  display: flex;
+  width: 1360px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0 auto;
+}
+.callback-request {
+  width: 680px;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 30px;
+}
+
+.callback-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+}
 .callback-text {
   color: var(--register-text);
   background-color: var(--main-text-color);
-  font-size: 18px;
+
   line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+.callback-btn {
+  background: var(--accent-color);
+  color: var(--main-text-color);
+  font-family: inherit;
+  line-height: 1.4;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
 }
 
 .footer {
@@ -351,10 +391,6 @@ ul {
 }
 
 .last-words {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.57;
   text-align: center;
   color: var(--main-text-color);
 }
