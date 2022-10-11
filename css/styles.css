@@ -335,8 +335,23 @@ ul {
 }
 
 /* callback */
-.callback {
+.callback-section {
   background-color: var(--section-color);
+}
+
+.container-callback {
+  display: flex;
+}
+
+.callback-request {
+  display: flex;
+  flex-direction: column;
+  width: 680px;
+  padding: 80px 30px;
+}
+
+.title-callback {
+  margin-bottom: 40px;
 }
 
 .callback-text {
@@ -344,6 +359,14 @@ ul {
   background-color: var(--main-text-color);
   font-size: 18px;
   line-height: 1.5;
+}
+
+.callback-name {
+  margin-bottom: 36px;
+}
+
+.callback-email {
+  margin-bottom: 60px;
 }
 
 .footer {
