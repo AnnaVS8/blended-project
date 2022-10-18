@@ -375,6 +375,7 @@ ul {
 
 .footer {
   background-color: var(--primary-text-color);
+  padding: 20px 0;
 }
 
 .last-words {
@@ -390,6 +391,7 @@ ul {
   display: flex;
   gap: 25px;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 .social-link {
