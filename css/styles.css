@@ -282,6 +282,16 @@ ul {
   background-color: var(--bgc-secondary);
 }
 
+.blog-item {
+  display:flex;
+  justify-content:center;
+}
+.blog-container {
+  display: block;
+  padding-top:112px ;
+  padding-right:44px;
+  padding-bottom: 123px ;
+}
 .blog-tagline,
 .blog-title,
 .blog-text {
@@ -289,6 +299,7 @@ ul {
 }
 
 .btn-blog {
+  display: block;
   background-color: var(--bgc-secondary);
   border: 1px solid var(--main-text-color);
   border-radius: 5px;
@@ -296,6 +307,8 @@ ul {
   height: 50px;
   left: 710px;
   top: 1369px;
+  padding:10px 31px 11px 42px;
+  align-items: center;
 }
 
 .tagline-team,
