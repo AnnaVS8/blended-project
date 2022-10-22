@@ -337,6 +337,7 @@ ul {
   display: flex;
   gap: 25px;
   justify-content: center;
+  transition: opacity 250ms linear;
 }
 
 .team-item .team-group-list::before {
@@ -453,6 +454,7 @@ ul {
 
 .social-link {
   fill: var(--main-text-color);
+  transition: fill 250ms linear;
 }
 
 .social-link:hover,
