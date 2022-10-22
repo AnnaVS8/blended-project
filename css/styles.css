@@ -59,8 +59,11 @@ ul {
   color: var(--main-text-color);
   text-decoration: none;
   display: block;
+  transition: color 250ms linear;
 }
-
+.nav .link:hover {
+  color: var(--accent-color);
+}
 .accent {
   color: var(--accent-color);
 }
@@ -144,8 +147,12 @@ ul {
   border: none;
   border-radius: 5px;
   padding: 10px 30px;
+  transition: background-color 250ms linear;
 }
-
+.btn:hover,
+.btn:focus {
+  background-color: #259b42;
+}
 .hero-button {
   text-align: center;
 }
@@ -316,8 +323,12 @@ ul {
   border: 1px solid var(--main-text-color);
   border-radius: 5px;
   padding: 11px 31px 10px 42px;
+  transition: background-color 250ms linear;
 }
-
+.btn-blog:hover,
+.btn-blog:hover {
+  background-color: #0278bd;
+}
 .blog-item {
   display: flex;
   width: 680px;
