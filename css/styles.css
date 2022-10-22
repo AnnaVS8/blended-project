@@ -327,8 +327,8 @@ ul {
 /* Team section */
 .team-group-list {
   position: relative;
+  opacity: 0;
 }
-
 .social-list-team {
   position: absolute;
   opacity: 0;
@@ -340,9 +340,10 @@ ul {
   justify-content: center;
 }
 
-.team-item:hover .team-group-list::before {
+.team-group-list::after {
   position: absolute;
   content: "";
+  opacity: 0;
   top: 0;
   left: 0;
   background-color: rgba(47, 48, 58, 0.4);
