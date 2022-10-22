@@ -1,4 +1,3 @@
-
 :root {
   --background-color: #e5e5e5;
   --main-text-color: #ffffff;
@@ -328,8 +327,8 @@ ul {
 /* Team section */
 .team-group-list {
   position: relative;
-  opacity: 0;
 }
+
 .social-list-team {
   position: absolute;
   opacity: 0;
@@ -341,19 +340,21 @@ ul {
   justify-content: center;
 }
 
-.team-group-list::after {
+.team-item:hover .team-group-list::before {
   position: absolute;
   content: "";
-  opacity: 0;
   top: 0;
   left: 0;
   background-color: rgba(47, 48, 58, 0.4);
   width: 100%;
   height: 100%;
 }
-.team-item:hover .team-group-list {
+.team-item:hover .social-list-team {
   opacity: 1;
-  }
+}
+.team-item {
+  cursor: pointer;
+}
 
 .tagline-team,
 .title-team,
