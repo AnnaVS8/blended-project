@@ -43,7 +43,7 @@
           <div class="container hero">
             <h1 class="hero-title">The sky is the limit</h1>
             <p class="hero-descr">We provide world class financial assistance</p>
-            <button class="btn hero-button" type="button"><span>></span> Read more</button>
+            <button class="btn hero-button" type="button" data-modal-open><span>></span> Read more</button>
           </div>
         </div>
       </section>
@@ -327,5 +327,11 @@
       </ul>
       <p class="last-words">Copyright &#169; 2021 - FinanceLedger</p>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal-window">
+        <button type="button" data-modal-close>X</button>
+      </div>
+    </div>
+    <script src="./modal.js"></script>
   </body>
 </html>
