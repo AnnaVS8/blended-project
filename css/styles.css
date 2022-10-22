@@ -1,4 +1,3 @@
-
 :root {
   --background-color: #e5e5e5;
   --main-text-color: #ffffff;
@@ -351,9 +350,12 @@ ul {
   width: 100%;
   height: 100%;
 }
-.team-item:hover .team-group-list {
+.team-item:hover .social-list-team {
   opacity: 1;
-  }
+}
+.team-item {
+  cursor: pointer;
+}
 
 .tagline-team,
 .title-team,
