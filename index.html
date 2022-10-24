@@ -331,7 +331,11 @@
     <!-- Modal window -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal-window">
-        <button class="modal-btn" type="button" data-modal-close>X</button>
+        <button class="modal-btn" type="button" data-modal-close>
+          <svg class="modal-svg" width="20" height="20">
+            <use href="./images/symbol-defs.svg#icon-close-black"></use>
+          </svg>
+        </button>
       </div>
     </div>
     <script src="./modal.js"></script>
