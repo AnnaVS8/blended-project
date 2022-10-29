@@ -281,51 +281,42 @@ ul {
 .blog-section {
   background-color: var(--bgc-secondary);
   margin: 0;
-}
 
+}
+.blog-section .container {
+  display: flex;
+}
 .blog-tagline,
 .blog-title,
 .blog-text {
   color: var(--main-text-color);
 }
-.blog-container {
-  display: block;
+ .blog-container {
   width: 680px;
+  padding: 112px 30px 112px 44px;
 
+} 
+.blog-item {
+  display: flex;
 }
 .blog-tagline {
-  padding-left: 30px;
-  padding-right: 524px;
-  padding-top: 112px;
-  padding-bottom: 0;
+ margin-bottom: 5px;
 
 }
 .blog-title {
-  padding-left: 30px;
-  padding-right: 396px;
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-top: 5px;
+  margin-top: 26px;
 }
 .blog-text {
-  padding-left: 30px;
-  padding-right:44px;
-  padding-top: 0;
-  padding-bottom: 0;
   margin-bottom: 17px;
 }
 .btn-blog {
   background-color: var(--bgc-secondary);
   border: 1px solid var(--main-text-color);
   border-radius: 5px;
-  padding: 11px 31px 10px 42px;
+  padding: 11px 36px 11px 46px;
 }
 
-.blog-item {
-display: flex;
-width: 680px;
-height: 517px;
-}
+
 
 
 .tagline-team,
