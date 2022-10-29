@@ -289,7 +289,9 @@ ul {
   background-color: var(--bgc-secondary);
   margin: 0;
 }
-
+.container.blog-wrapper {
+  display: flex;
+}
 .blog-tagline,
 .blog-title,
 .blog-text {
@@ -298,32 +300,22 @@ ul {
 .blog-container {
   display: block;
   width: 680px;
+padding: 112px 30px 113px 44px;
 }
 .blog-tagline {
-  padding-left: 30px;
-  padding-right: 524px;
-  padding-top: 112px;
-  padding-bottom: 0;
+  margin-bottom: 5px;
 }
 .blog-title {
-  padding-left: 30px;
-  padding-right: 396px;
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-top: 5px;
+ margin-bottom: 26px;
 }
 .blog-text {
-  padding-left: 30px;
-  padding-right: 44px;
-  padding-top: 0;
-  padding-bottom: 0;
   margin-bottom: 17px;
 }
 .btn-blog {
   background-color: var(--bgc-secondary);
   border: 1px solid var(--main-text-color);
   border-radius: 5px;
-  padding: 11px 31px 10px 42px;
+  padding: 11px 36px 10px 36px;
   transition: background-color 250ms linear;
 }
 .btn-blog:hover,
@@ -443,7 +435,7 @@ ul {
 .callback-email {
   margin-bottom: 60px;
 }
-
+/* footer */
 .footer {
   background-color: var(--primary-text-color);
   padding: 20px 0;
@@ -474,6 +466,7 @@ ul {
 .social-link:focus {
   fill: var(--accent-color);
 }
+ /* Modal window */
 .backdrop.is-hidden {
   opacity: 0;
   visibility: hidden;
