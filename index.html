@@ -341,14 +341,32 @@
           <p class="form-title">Order a callback</p>
           <div class="form-part">
             <div class="form-input">
-              <input class="input" id="personal-name" type="text" name="personal-name" placeholder=" " required />
+              <input
+                class="input"
+                id="personal-name"
+                type="text"
+                name="personal-name"
+                placeholder=" "
+                minlength="6"
+                maxlength="20"
+                pattern="^[A-Za-z]+\s[A-Za-z]+$"
+                title="Enter first and last name, only Latin letters"
+                required />
               <label class="form-label" for="personal-name">Name</label>
               <svg class="input-icon" width="18" height="18">
                 <use href="./images/symbol-defs.svg#icon-person-black"></use>
               </svg>
             </div>
             <div class="form-input">
-              <input class="input" id="personal-phone" type="tel" name="personal-phone" placeholder=" " required />
+              <input
+                class="input"
+                id="personal-phone"
+                type="tel"
+                name="personal-phone"
+                placeholder=" "
+                pattern="^\+[0-9]{12}"
+                title="+380..."
+                required />
               <label class="form-label" for="personal-phone">Phone</label>
               <svg class="input-icon" width="18" height="18">
                 <use href="./images/symbol-defs.svg#icon-phone-black"></use>
